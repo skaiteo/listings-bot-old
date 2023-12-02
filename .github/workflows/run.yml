@@ -16,3 +16,9 @@ jobs:
         run: npm ci
       - name: Run scraper
         run: npm test
+      - name: Git commit listings
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # branch: feature-123
+          commit_message: commit listings.json
+          file_pattern: 'data/listings.json'

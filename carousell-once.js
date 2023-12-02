@@ -1,5 +1,6 @@
 require("dotenv").config();
 const puppeteer = require("puppeteer");
+const fs = require("fs").promises;
 
 let prevListings = [];
 const resellers = process.env.RESELLERS.split(", ");
@@ -32,6 +33,7 @@ async function loadPage() {
     await page.close();
 
     let listings = [];
+    prevListings = await fs.readFile("data/listings.json")
 
     data.SearchListing.listingCards.forEach((element) => {
         const name = element.belowFold[0].stringContent;
@@ -84,6 +86,7 @@ async function loadPage() {
 
     //  Save for comparison later
     prevListings = listings;
+    await fs.writeFile("data/listings.json", JSON.stringify(prevListings, null, 2));
 }
 
 // job.start();
