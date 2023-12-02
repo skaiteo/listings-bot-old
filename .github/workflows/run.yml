@@ -17,6 +17,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Run scraper
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          BOT_CHATID: ${{ secrets.BOT_CHATID }}
         run: npm test
       - name: Git commit listings
         uses: stefanzweifel/git-auto-commit-action@v5

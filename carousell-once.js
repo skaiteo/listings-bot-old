@@ -82,7 +82,7 @@ async function loadPage() {
             console.log(diffListings);
             console.log(dateTime + "\t There is an update!! :)");
             messages = createListingsStr(diffListings);
-            // telegram_bot_sendtext(messages);
+            telegram_bot_sendtext(messages);
         }
     }
 
