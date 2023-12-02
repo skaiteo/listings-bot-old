@@ -1,7 +1,8 @@
 require("dotenv").config();
 const puppeteer = require("puppeteer");
+const fs = require("fs").promises;
 
-let prevListings = [];
+let prevListings = await fs.readFile("data/listings.json");
 const resellers = process.env.RESELLERS.split(", ");
 let context;
 
@@ -76,6 +77,8 @@ async function loadPage() {
         if (diffListings.length == 0)
             console.log(dateTime + "\t There is no update... :(");
         else {
+            console.log(dateTime + "\t New listings:");
+            console.log(diffListings);
             console.log(dateTime + "\t There is an update!! :)");
             messages = createListingsStr(diffListings);
             telegram_bot_sendtext(messages);
@@ -84,6 +87,7 @@ async function loadPage() {
 
     //  Save for comparison later
     prevListings = listings;
+    await fs.writeFile("data/listings.json", JSON.stringify(prevListings, null, 2) + "\n");
 }
 
 // job.start();
