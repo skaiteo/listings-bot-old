@@ -33,7 +33,7 @@ async function loadPage() {
     await page.close();
 
     let listings = [];
-    prevListings = await fs.readFile("data/listings.json")
+    prevListings = JSON.parse(await fs.readFile("data/listings.json"))
 
     data.SearchListing.listingCards.forEach((element) => {
         const name = element.belowFold[0].stringContent;
@@ -82,7 +82,7 @@ async function loadPage() {
             console.log(diffListings);
             console.log(dateTime + "\t There is an update!! :)");
             messages = createListingsStr(diffListings);
-            telegram_bot_sendtext(messages);
+            // telegram_bot_sendtext(messages);
         }
     }
 
