@@ -3,7 +3,7 @@ const puppeteer = require("puppeteer");
 const fs = require("fs").promises;
 
 let prevListings = [];
-const resellers = process.env.RESELLERS.split(", ");
+const resellers = (process.env.RESELLERS ?? "").split(", ");
 let context;
 
 // const CronJob = require("cron").CronJob;
