@@ -97,7 +97,7 @@ async function loadPage(item) {
     }
 
     //  Save for comparison later
-    await fs.writeFile(filePath, JSON.stringify(prevListings, null, 2) + "\n");
+    await fs.writeFile(filePath, JSON.stringify(newListings, null, 2) + "\n");
 }
 
 // job.start();
