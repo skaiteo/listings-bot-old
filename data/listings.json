@@ -72,6 +72,15 @@
     "itemURL": "https://carousell.com.my/p/Steam-Games----ALL-IN-1---1500-GAME---STEAM-DECK-GAMES---Join-The-Community-1268740496"
   },
   {
+    "name": "Steam Deck 64GB",
+    "price": "RM1,500",
+    "condition": "Like new",
+    "listingID": 1268656316,
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/30/steam_deck_64gb_1701352955_2b03efff_progressive_thumbnail",
+    "seller_username": "azim99",
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-64GB-1268656316"
+  },
+  {
     "name": "Steam Deck 64gb + 128gb High Speed Micro SD ",
     "price": "RM1,650",
     "condition": "Like new",
@@ -97,24 +106,6 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/29/steam_deck_accessories__protec_1701265352_dab88645_progressive_thumbnail.jpg",
     "seller_username": "EnemyGamer",
     "itemURL": "https://carousell.com.my/p/Steam-Deck-accessories---protective-case-with-kickstand-for-Steamdeck-1268470337"
-  },
-  {
-    "name": "Steam Deck 1 TB SSD",
-    "price": "RM2,000",
-    "condition": "Lightly used",
-    "listingID": 1268455230,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/29/steam_deck_1_tb_ssd_1701260556_bf08d1d6_progressive_thumbnail.jpg",
-    "seller_username": "johnwiek",
-    "itemURL": "https://carousell.com.my/p/Steam-Deck-1-TB-SSD-1268455230"
-  },
-  {
-    "name": "Steam Deck - INCLUDES 10 STEAMDECK GAMES!",
-    "price": "RM1,799",
-    "condition": "Like new",
-    "listingID": 1268412242,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/29/steam_deck__includes_10_games_1701246567_47a7c747_progressive_thumbnail.jpg",
-    "seller_username": "EnemyGamer",
-    "itemURL": "https://carousell.com.my/p/Steam-Deck---INCLUDES-10-STEAMDECK-GAMES--1268412242"
   },
   {
     "name": "Steam Deck 64 GB + 512 GB memory card",
@@ -430,5 +421,14 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/9/steam_deck_19tb_1699543865_ec46318e_progressive_thumbnail.jpg",
     "seller_username": "mhmdhafizul_04",
     "itemURL": "https://carousell.com.my/p/Steam-deck-1-9tb-1264769103"
+  },
+  {
+    "name": "Steam Deck 1TB",
+    "price": "RM2,000",
+    "condition": "Like new",
+    "listingID": 1264372857,
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/7/steam_deck_1tb_1699363870_823b3292_progressive_thumbnail.jpg",
+    "seller_username": "tirednhungry",
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-1TB-1264372857"
   }
 ]
