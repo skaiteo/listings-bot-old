@@ -99,15 +99,6 @@
     "itemURL": "https://carousell.com.my/p/Steam-Deck-accessories---protective-case-with-kickstand-for-Steamdeck-1268470337"
   },
   {
-    "name": "Steam Deck - INCLUDES 10 STEAMDECK GAMES!",
-    "price": "RM1,799",
-    "condition": "Like new",
-    "listingID": 1268412242,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/29/steam_deck__includes_10_games_1701246567_47a7c747_progressive_thumbnail.jpg",
-    "seller_username": "EnemyGamer",
-    "itemURL": "https://carousell.com.my/p/Steam-Deck---INCLUDES-10-STEAMDECK-GAMES--1268412242"
-  },
-  {
     "name": "Steam Deck 64 GB + 512 GB memory card",
     "price": "RM1,850",
     "condition": "Lightly used",
@@ -430,5 +421,14 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/7/steam_deck_1tb_1699363870_823b3292_progressive_thumbnail.jpg",
     "seller_username": "tirednhungry",
     "itemURL": "https://carousell.com.my/p/Steam-Deck-1TB-1264372857"
+  },
+  {
+    "name": "STEAM DECK (NEW)",
+    "price": "RM2,000",
+    "condition": "Like new",
+    "listingID": 1264299871,
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/7/steam_deck_new_1699331676_0f33cd06_progressive_thumbnail.jpg",
+    "seller_username": "hazirahzaabah",
+    "itemURL": "https://carousell.com.my/p/STEAM-DECK--NEW--1264299871"
   }
 ]
