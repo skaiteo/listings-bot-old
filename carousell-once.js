@@ -15,7 +15,9 @@ let context;
 // });
 
 async function scrapeItems() {
-    const items = new Set(String(process.env.ITEMS).split(","));
+    const items = new Set(String(process.env.ITEMS)
+        .split(",")
+        .map((item) => item.trim()));
     await Promise.all([...items].map(item => loadPage(item)));
 }
 
