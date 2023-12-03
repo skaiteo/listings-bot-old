@@ -10,21 +10,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20.x'
       - name: Install dependencies
         run: npm ci
+      - name: Checkout previous listings
+        # uses: actions/checkout@v4
+        # with:
+        #   ref: data
+        #   sparse-checkout: listings
+        run: |
+          git fetch origin data:data
+          git checkout data -- listings/*
+      - run: git status
       - name: Run scraper
+        run: npm test
         env:
-          ITEM: ${{ vars.ITEM }}
+          ITEMS: ${{ vars.ITEMS }}
+          ENABLE_TELEGRAM: ${{ vars.ENABLE_TELEGRAM }}
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           BOT_CHATID: ${{ secrets.BOT_CHATID }}
-        run: npm test
+      - run: git status
       - name: Git commit listings
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          # branch: feature-123
-          commit_message: commit listings.json
-          file_pattern: 'data/listings.json'
+          branch: data
+          commit_message: commit listings
+          file_pattern: 'listings/*.json'
+      - run: git status

@@ -3,6 +3,9 @@ const puppeteer = require("puppeteer");
 const fs = require("fs").promises;
 
 const resellers = String(process.env.RESELLERS ?? "").split(", ");
+const enableTelegram =
+    process.env.ENABLE_TELEGRAM == "true" ||
+    process.env.ENABLE_TELEGRAM == "1";
 let context;
 
 // const CronJob = require("cron").CronJob;
@@ -91,7 +94,7 @@ async function loadPage(item) {
         else {
             console.log(dateTime + `\t There is an update for "${item}"!! :)\tNew listings:`);
             console.log(diffListings);
-            if (process.env.ENABLE_TELEGRAM)
+            if (enableTelegram)
                 telegram_bot_sendtext(createListingsStr(diffListings));
         }
     }
