@@ -1,13 +1,12 @@
 {
-  "name": "urljswatcher",
+  "name": "carousallert",
   "version": "1.0.0",
   "description": "",
   "main": "carousell.js",
   "dependencies": {
     "axios": "^1.6.2",
-    "cron": "^1.8.2",
-    "dotenv": "^8.2.0",
-    "puppeteer": "^3.0.2"
+    "dotenv": "^16.3.1",
+    "puppeteer": "^21.5.2"
   },
   "scripts": {
     "start": "node carousell.js",

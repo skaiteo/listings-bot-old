@@ -82,7 +82,7 @@ async function loadPage() {
             console.log(diffListings);
             console.log(dateTime + "\t There is an update!! :)");
             messages = createListingsStr(diffListings);
-            telegram_bot_sendtext(messages);
+            if (process.env.ENABLE_TELEGRAM) telegram_bot_sendtext(messages);
         }
     }
 
@@ -155,7 +155,7 @@ function createListingsStr(listings) {
 
 async function createBrowser(cb) {
     const browser = await puppeteer.launch({
-        headless: true,
+        headless: "new",
         args: ["--no-sandbox", "--incognito"],
     });
     context = await browser.createIncognitoBrowserContext();
