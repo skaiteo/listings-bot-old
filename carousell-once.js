@@ -2,8 +2,7 @@ require("dotenv").config();
 const puppeteer = require("puppeteer");
 const fs = require("fs").promises;
 
-let prevListings = [];
-const resellers = (process.env.RESELLERS ?? "").split(", ");
+const resellers = String(process.env.RESELLERS ?? "").split(", ");
 let context;
 
 // const CronJob = require("cron").CronJob;
@@ -12,8 +11,14 @@ let context;
 //   onTick: loadPage,
 // });
 
-async function loadPage() {
-    var link = "https://carousell.com.my/search/" + encodeURIComponent(process.env.ITEM) + "?sort_by=3&tab=marketplace"
+async function scrapeItems() {
+    const items = new Set(String(process.env.ITEMS).split(","));
+    await Promise.all([...items].map(item => loadPage(item)));
+}
+
+async function loadPage(item) {
+    console.log(`Starting search for "${item}"...`);
+    var link = "https://carousell.com.my/search/" + encodeURIComponent(item) + "?sort_by=3&tab=marketplace"
     var page = await context.newPage();
     await page.setUserAgent(
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3419.0 Safari/537.36"
@@ -32,8 +37,14 @@ async function loadPage() {
     });
     await page.close();
 
-    let listings = [];
-    prevListings = JSON.parse(await fs.readFile("data/listings.json"))
+    let newListings = [];
+    const filePath = `listings/${item.replace(/ /g, "-")}.json`;
+    let prevListings = [];
+    try {
+        prevListings = JSON.parse(await fs.readFile(filePath))
+    } catch (error) {
+        console.error(`Read file error for ${filePath}: `, error);
+    }
 
     data.SearchListing.listingCards.forEach((element) => {
         const name = element.belowFold[0].stringContent;
@@ -61,7 +72,7 @@ async function loadPage() {
             console.log("Excluding bumper and spotlighter: " + seller_username)
         else {
             if (!resellers.includes(seller_username))
-                listings.push(listing)
+                newListings.push(listing)
         }
     });
 
@@ -71,24 +82,22 @@ async function loadPage() {
     dateTime = new Date(asiaTime);
 
     if (prevListings.length == 0) {
-        console.log("Script starting... we populate the listings!");
-        console.log(listings);
+        console.log(`New item "${item}", populating listings...`);
+        console.log(newListings);
     } else {
-        diffListings = compareListings(prevListings, listings);
+        diffListings = compareListings(prevListings, newListings);
         if (diffListings.length == 0)
-            console.log(dateTime + "\t There is no update... :(");
+            console.log(dateTime + `\t There is no update for "${item}"... :(`);
         else {
-            console.log(dateTime + "\t New listings:");
+            console.log(dateTime + `\t There is an update for "${item}"!! :)\tNew listings:`);
             console.log(diffListings);
-            console.log(dateTime + "\t There is an update!! :)");
-            messages = createListingsStr(diffListings);
-            if (process.env.ENABLE_TELEGRAM) telegram_bot_sendtext(messages);
+            if (process.env.ENABLE_TELEGRAM)
+                telegram_bot_sendtext(createListingsStr(diffListings));
         }
     }
 
     //  Save for comparison later
-    prevListings = listings;
-    await fs.writeFile("data/listings.json", JSON.stringify(prevListings, null, 2) + "\n");
+    await fs.writeFile(filePath, JSON.stringify(prevListings, null, 2) + "\n");
 }
 
 // job.start();
@@ -163,4 +172,4 @@ async function createBrowser(cb) {
     await browser.close();
 }
 
-createBrowser(loadPage);
+createBrowser(scrapeItems);

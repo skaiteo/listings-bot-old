@@ -10,7 +10,10 @@
   },
   "scripts": {
     "start": "node carousell.js",
-    "test": "node carousell-once.js"
+    "test": "node carousell-once.js",
+    "local": "npm run checkout-data && npm test",
+    "checkout-data": "git checkout data -- listings/*",
+    "commit-data": "git checkout data && git add . && git commit -m \"Update listings\""
   },
   "author": "",
   "license": "ISC"
