@@ -97,7 +97,7 @@ async function loadPage(item) {
             console.log(dateTime + `\t There is an update for "${item}"!! :)\tNew listings:`);
             console.log(diffListings);
             if (enableTelegram)
-                telegram_bot_sendtext(createListingsStr(diffListings));
+                telegram_bot_sendtext(createListingsStr(item, diffListings));
         }
     }
 
@@ -148,11 +148,12 @@ function compareListings(array1, array2) {
 
 //  Prepare listing string to send to telegram.
 //  Splitting things up properly because TG cannot handle long messages
-function createListingsStr(listings) {
+function createListingsStr(item, listings) {
     splitMessages = [];
     let message = "";
 
     for (var i = 0; i < listings.length; i++) {
+        message += `Search: [${item.toUpperCase()}]` + "\n";
         message += "Name: " + listings[i]["name"] + "\n";
         message += "Price: " + listings[i]["price"] + "\n";
         message += "Condition: " + listings[i]["condition"] + "\n";
