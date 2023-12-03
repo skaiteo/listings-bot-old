@@ -72,15 +72,6 @@
     "itemURL": "https://carousell.com.my/p/Steam-Games----ALL-IN-1---1500-GAME---STEAM-DECK-GAMES---Join-The-Community-1268740496"
   },
   {
-    "name": "Steam Deck 64GB",
-    "price": "RM1,500",
-    "condition": "Like new",
-    "listingID": 1268656316,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/30/steam_deck_64gb_1701352955_2b03efff_progressive_thumbnail",
-    "seller_username": "azim99",
-    "itemURL": "https://carousell.com.my/p/Steam-Deck-64GB-1268656316"
-  },
-  {
     "name": "Steam Deck 64gb + 128gb High Speed Micro SD ",
     "price": "RM1,650",
     "condition": "Like new",
@@ -430,5 +421,14 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/10/steam_deck_unable_to_play_game_1699588583_90c6c00c_progressive_thumbnail",
     "seller_username": "aikilyugamingbangi",
     "itemURL": "https://carousell.com.my/p/STEAM-DECK-UNABLE-TO-PLAY-GAME-REPAIR-SERVICE-1264825880"
+  },
+  {
+    "name": "Steam deck 1.9tb",
+    "price": "RM1,900",
+    "condition": "Like new",
+    "listingID": 1264769103,
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/9/steam_deck_19tb_1699543865_ec46318e_progressive_thumbnail.jpg",
+    "seller_username": "mhmdhafizul_04",
+    "itemURL": "https://carousell.com.my/p/Steam-deck-1-9tb-1264769103"
   }
 ]
