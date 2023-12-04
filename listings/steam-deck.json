@@ -369,15 +369,6 @@
     "itemURL": "https://carousell.com.my/p/2pcs-Steam-deck-skin-1265579210"
   },
   {
-    "name": "Valve Steam Deck 64GB",
-    "price": "RM40",
-    "condition": "Lightly used",
-    "listingID": 1265536091,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/13/valve_steam_deck_64gb_1699918248_486576e6_progressive_thumbnail.jpg",
-    "seller_username": "bryanferry",
-    "itemURL": "https://carousell.com.my/p/Valve-Steam-Deck-64GB-1265536091"
-  },
-  {
     "name": "Steam Deck OLED 512GB 1TB Pre Order",
     "price": "RM2,999",
     "condition": "Brand new",
@@ -430,5 +421,14 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/10/steam_deck_unable_to_play_game_1699588583_90c6c00c_progressive_thumbnail",
     "seller_username": "aikilyugamingbangi",
     "itemURL": "https://carousell.com.my/p/STEAM-DECK-UNABLE-TO-PLAY-GAME-REPAIR-SERVICE-1264825880"
+  },
+  {
+    "name": "Steam deck 1.9tb",
+    "price": "RM1,900",
+    "condition": "Like new",
+    "listingID": 1264769103,
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/9/steam_deck_19tb_1699543865_ec46318e_progressive_thumbnail.jpg",
+    "seller_username": "mhmdhafizul_04",
+    "itemURL": "https://carousell.com.my/p/Steam-deck-1-9tb-1264769103"
   }
 ]
