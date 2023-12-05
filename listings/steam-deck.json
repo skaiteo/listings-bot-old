@@ -81,24 +81,6 @@
     "itemURL": "https://carousell.com.my/p/Steam-Deck-1TB-Upgraded-1268760609"
   },
   {
-    "name": "Steam Games 🔥 ALL IN 1 | 1500 GAME | STEAM DECK GAMES🔥 Join The Community",
-    "price": "RM59.90",
-    "condition": "Brand new",
-    "listingID": 1268740496,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/1/steam_games__all_in_1__1500_ga_1701405930_c805e42b_progressive_thumbnail.jpg",
-    "seller_username": "jc608253",
-    "itemURL": "https://carousell.com.my/p/Steam-Games----ALL-IN-1---1500-GAME---STEAM-DECK-GAMES---Join-The-Community-1268740496"
-  },
-  {
-    "name": "Steam Deck 64gb + 128gb High Speed Micro SD ",
-    "price": "RM1,600",
-    "condition": "Like new",
-    "listingID": 1268609472,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/30/steam_deck_64gb_1701335985_47966f4e_progressive_thumbnail.jpg",
-    "seller_username": "nathandrake88",
-    "itemURL": "https://carousell.com.my/p/Steam-Deck-64gb---128gb-High-Speed-Micro-SD--1268609472"
-  },
-  {
     "name": "Steam Deck accessories - protective shell case for Steamdeck",
     "price": "RM19",
     "condition": "Like new",
@@ -288,15 +270,6 @@
     "itemURL": "https://carousell.com.my/p/Steam-Deck-1TB-upgraded-SSD-with-Dual-Boot--Steam-OS-and-Window-11--1266461850"
   },
   {
-    "name": "Steam Deck 1TB + 256GB Samsung SD Card",
-    "price": "RM2,300",
-    "condition": "Lightly used",
-    "listingID": 1266150057,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/17/steam_deck_1tb__256gb_sd_card_1700207285_17ef5045_progressive_thumbnail.jpg",
-    "seller_username": "hydrabug",
-    "itemURL": "https://carousell.com.my/p/Steam-Deck-1TB---256GB-Samsung-SD-Card-1266150057"
-  },
-  {
     "name": "Steam Deck TPU Case with Kickstand",
     "price": "RM29",
     "condition": "Like new",
@@ -430,5 +403,32 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/7/steam_deck_1tb_1699363870_823b3292_progressive_thumbnail.jpg",
     "seller_username": "tirednhungry",
     "itemURL": "https://carousell.com.my/p/Steam-Deck-1TB-1264372857"
+  },
+  {
+    "name": "STEAM DECK (NEW)",
+    "price": "RM2,000",
+    "condition": "Like new",
+    "listingID": 1264299871,
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/7/steam_deck_new_1699331676_0f33cd06_progressive_thumbnail.jpg",
+    "seller_username": "hazirahzaabah",
+    "itemURL": "https://carousell.com.my/p/STEAM-DECK--NEW--1264299871"
+  },
+  {
+    "name": "Steam Deck 1TB Upgrade",
+    "price": "RM1,900",
+    "condition": "Like new",
+    "listingID": 1264286504,
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/7/steam_deck_1tb_upgrade_1699326931_0d4876d2_progressive_thumbnail.jpg",
+    "seller_username": "haziqhuruhuru",
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-1TB-Upgrade-1264286504"
+  },
+  {
+    "name": "Steam Deck 64GB eMMC original",
+    "price": "RM30",
+    "condition": "Like new",
+    "listingID": 1264202907,
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/6/steam_deck_64gb_emmc_original__1699273898_3defe961_progressive_thumbnail",
+    "seller_username": "shafiqikmal25",
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-64GB-eMMC-original-1264202907"
   }
 ]
