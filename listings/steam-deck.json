@@ -27,15 +27,6 @@
     "itemURL": "https://carousell.com.my/p/Steam-Deck-1269716163"
   },
   {
-    "name": "Valve Steam Deck",
-    "price": "RM1,700",
-    "condition": "Lightly used",
-    "listingID": 1269706921,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/6/valve_steam_deck_1701822828_56e05a32_progressive_thumbnail.jpg",
-    "seller_username": "bryanferry",
-    "itemURL": "https://carousell.com.my/p/Valve-Steam-Deck-1269706921"
-  },
-  {
     "name": "Steam deck upgraded 1TB",
     "price": "RM1,788",
     "condition": "Like new",
@@ -430,5 +421,14 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/7/steam_deck_1tb_upgrade_1699326931_0d4876d2_progressive_thumbnail.jpg",
     "seller_username": "haziqhuruhuru",
     "itemURL": "https://carousell.com.my/p/Steam-Deck-1TB-Upgrade-1264286504"
+  },
+  {
+    "name": "Steam Deck 64GB eMMC original",
+    "price": "RM30",
+    "condition": "Like new",
+    "listingID": 1264202907,
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/6/steam_deck_64gb_emmc_original__1699273898_3defe961_progressive_thumbnail",
+    "seller_username": "shafiqikmal25",
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-64GB-eMMC-original-1264202907"
   }
 ]
