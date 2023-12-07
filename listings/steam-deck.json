@@ -36,17 +36,8 @@
     "itemURL": "https://carousell.com.my/p/Steam-Deck-512-GB-set-to-let-go--can-nego--1269912248"
   },
   {
-    "name": "Steam Deck accessories - JSAUX ModCase (no kickstand)",
-    "price": "RM55",
-    "condition": "Like new",
-    "listingID": 1269791374,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/6/steam_deck_accessories__jsaux__1701850546_152cdd3e_progressive_thumbnail.jpg",
-    "seller_username": "EnemyGamer",
-    "itemURL": "https://carousell.com.my/p/Steam-Deck-accessories---JSAUX-ModCase--no-kickstand--1269791374"
-  },
-  {
     "name": "Steam Deck",
-    "price": "RM1,750",
+    "price": "RM1,700",
     "condition": "Lightly used",
     "listingID": 1269716163,
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/6/steam_deck_1701826925_59391c1f_progressive_thumbnail.jpg",
@@ -430,5 +421,14 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/6/steam_deck_64gb_emmc_original__1699273898_3defe961_progressive_thumbnail",
     "seller_username": "shafiqikmal25",
     "itemURL": "https://carousell.com.my/p/Steam-Deck-64GB-eMMC-original-1264202907"
+  },
+  {
+    "name": "Steam Deck 64gb set like new",
+    "price": "RM1,800",
+    "condition": "Like new",
+    "listingID": 1264176421,
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/6/steam_deck_64gb_set_like_new_1699264649_2038dc1a_progressive_thumbnail.jpg",
+    "seller_username": "Fyzal",
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-64gb-set-like-new-1264176421"
   }
 ]
