@@ -121,7 +121,7 @@ function telegram_bot_sendtext(bot_message_array) {
             "/sendMessage?chat_id=" +
             bot_chatID +
             "&parse_mode=html&text=" +
-            encodeURI(bot_message);
+            encodeURIComponent(bot_message);
 
         axios
             .get(send_text)
