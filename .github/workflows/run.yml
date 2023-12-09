@@ -19,16 +19,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Checkout previous listings
-        # uses: actions/checkout@v4
-        # with:
-        #   ref: data
-        #   sparse-checkout: listings
         run: |
           git fetch origin data:data
           git checkout data -- listings/*
-      - run: git status
       - name: Run scraper
-        run: npm test
+        run: npm start
         env:
           ITEMS: ${{ vars.ITEMS }}
           ENABLE_TELEGRAM: ${{ vars.ENABLE_TELEGRAM }}
@@ -41,4 +36,3 @@ jobs:
           branch: data
           commit_message: commit listings
           file_pattern: 'listings/*.json'
-      - run: git status

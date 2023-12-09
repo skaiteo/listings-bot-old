@@ -1,0 +1,5 @@
+- convert to TS
+- Support Facebook marketplace
+- Add Telegram bot configurator
+- Store more listings for price drops
+- Combine id and price for diff check
