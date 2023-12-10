@@ -1,4 +1,4 @@
-name: Carousell once
+name: Search marketplaces
 
 on:
   workflow_dispatch:
@@ -22,7 +22,7 @@ jobs:
         run: |
           git fetch origin data:data
           git checkout data -- listings/*
-      - name: Run scraper
+      - name: Search marketplaces
         run: npm start
         env:
           ITEMS: ${{ vars.ITEMS }}
