@@ -1,35 +1,25 @@
-const { processDifferences } = require("./utils");
-const fs = require("fs").promises;
+const { updateListings, readListingsFile, writeListingsFile } = require("./utils");
 
+const PLATFORM = "Carousell";
 const resellers = String(process.env.RESELLERS ?? "").split(", ");
 
 exports.searchCarousell = async function (page, item) {
-    console.log(`[Carousell] Starting search for "${item}"...`);
-    var link = "https://carousell.com.my/search/" + encodeURIComponent(item) + "?sort_by=3&tab=marketplace";
+    console.log(`[${PLATFORM}] Starting search for "${item}"...`);
+    const link = "https://carousell.com.my/search/" + encodeURIComponent(item) + "?sort_by=3&tab=marketplace";
 
     await page.goto(link, { waitUntil: "load", timeout: 0 });
-    var data = await page.evaluate(function () {
+    const data = await page.evaluate(function () {
         return window.initialState;
     });
-    await page.close();
+    const currentListings = mapToListings(data);
 
-    const filePath = `listings/${item.replace(/ /g, "-")}.json`;
-    let prevListings = [];
-    try {
-        prevListings = JSON.parse(await fs.readFile(filePath));
-    } catch (error) {
-        console.error(`Read file error for ${filePath}: `, error);
-    }
+    const prevListings = await readListingsFile(PLATFORM, item);
+    const latestListings = updateListings(PLATFORM, item, prevListings, currentListings);
 
-    const currentListings = mapSearchToListings(data);
-
-    const newListings = processDifferences("Carousell", item, prevListings, currentListings);
-
-    // Write once to carousell_<item>.json when migrating
-    await fs.writeFile(filePath, JSON.stringify(newListings, null, 2) + "\n");
+    await writeListingsFile(PLATFORM, item, latestListings);
 };
 
-function mapSearchToListings(data) {
+function mapToListings(data) {
     const cards = data.SearchListing.listingCards;
     return cards.flatMap((element) => {
         const name = element.belowFold[0].stringContent;
@@ -43,15 +33,7 @@ function mapSearchToListings(data) {
         const isBumper = element.aboveFold[0].component === "active_bump";  //  Lightning icons - Most resellers will not have active bumps
         const isSpotlighter = element.hasOwnProperty('promoted');   //  Purple promoted icons - Most resellers will not have spotlight
 
-        const listing = {
-            name,
-            price,
-            condition,
-            listingID,
-            thumbnailURL,
-            seller_username: sellerUsername,
-            itemURL
-        };
+        const listing = { name, listingID, price, sellerUsername, condition, thumbnailURL, itemURL };
 
         if (isBumper || isSpotlighter)
             console.log("Excluding bumper and spotlighter: " + sellerUsername);

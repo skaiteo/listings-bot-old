@@ -1,6 +1,7 @@
 require("dotenv").config();
 const puppeteer = require("puppeteer");
 const { searchCarousell } = require("./carousell");
+const { searchFacebook } = require("./facebook");
 
 (async () => {
     const items = new Set(String(process.env.ITEMS)
@@ -14,6 +15,7 @@ const { searchCarousell } = require("./carousell");
     const context = await browser.createIncognitoBrowserContext();
 
     await Promise.allSettled([...items].map(async item => {
+        // Consider moving this to individual searches to be faster
         var page = await context.newPage();
 
         await page.setCacheEnabled(false);
@@ -27,8 +29,11 @@ const { searchCarousell } = require("./carousell");
             else req.abort();
         });
 
+        // TODO: Run concurrently
         await searchCarousell(page, item);
-        // searchFacebook
+        await searchFacebook(page, item);
+
+        await page.close();
     }));
 
     await browser.close();
