@@ -3,25 +3,26 @@ const { readListingsFile, updateListings, writeListingsFile } = require("./utils
 const PLATFORM = "Facebook";
 
 exports.searchFacebook = async (page, item) => {
-    console.log(`[Facebook] Starting search for "${item}"...`);
+    console.log(`[Facebook] Starting search for "${item.name}"...`);
     const link =
         "https://www.facebook.com/marketplace/109333975751208/search?query=" +
-        encodeURIComponent(item) +
-        "&minPrice=1000&maxPrice=3500&sortBy=creation_time_descend&exact=false";
-
+        encodeURIComponent(item.name) +
+        "&sortBy=creation_time_descend&exact=false" +
+        `&minPrice=${item.minPrice ?? ""}&maxPrice=${item.maxPrice ?? ""}`;
+    console.log(link);
 
     await page.goto(link, { "waitUntil": "domcontentloaded", timeout: 0 });
     const elements = await page.$$("a");
 
-    const currentListings = await mapToListings(item, elements);
-    const prevListings = await readListingsFile(PLATFORM, item);
-    const latestListings = updateListings(PLATFORM, item, prevListings, currentListings);
+    const currentListings = await mapToListings(item.name, elements);
+    const prevListings = await readListingsFile(PLATFORM, item.name);
+    const latestListings = updateListings(PLATFORM, item.name, prevListings, currentListings);
 
-    await writeListingsFile(PLATFORM, item, latestListings);
+    await writeListingsFile(PLATFORM, item.name, latestListings);
 };
 
-async function mapToListings(item, elements) {
-    const regex = new RegExp(`.*?${item.split(" ").join(".*?")}.*?`, "i");
+async function mapToListings(itemName, elements) {
+    const regex = new RegExp(`.*?${itemName.split(" ").join(".*?")}.*?`, "i");
     // console.log("RegExp: " + regex);
 
     const listings = await Promise.all(elements.map(async element => {
