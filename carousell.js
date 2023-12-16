@@ -4,8 +4,11 @@ const PLATFORM = "Carousell";
 const resellers = String(process.env.RESELLERS ?? "").split(", ");
 
 exports.searchCarousell = async function (page, item) {
-    console.log(`[${PLATFORM}] Starting search for "${item}"...`);
-    const link = "https://carousell.com.my/search/" + encodeURIComponent(item) + "?sort_by=3&tab=marketplace";
+    console.log(`[${PLATFORM}] Starting search for "${item.name}"...`);
+    const link = "https://carousell.com.my/search/" +
+        encodeURIComponent(item.name) +
+        "?sort_by=3&tab=marketplace" +
+        `&price_start=${item.minPrice ?? ""}&price_end=${item.maxPrice ?? ""}`;
 
     await page.goto(link, { waitUntil: "load", timeout: 0 });
     const data = await page.evaluate(function () {
@@ -13,10 +16,10 @@ exports.searchCarousell = async function (page, item) {
     });
     const currentListings = mapToListings(data);
 
-    const prevListings = await readListingsFile(PLATFORM, item);
-    const latestListings = updateListings(PLATFORM, item, prevListings, currentListings);
+    const prevListings = await readListingsFile(PLATFORM, item.name);
+    const latestListings = updateListings(PLATFORM, item.name, prevListings, currentListings);
 
-    await writeListingsFile(PLATFORM, item, latestListings);
+    await writeListingsFile(PLATFORM, item.name, latestListings);
 };
 
 function mapToListings(data) {

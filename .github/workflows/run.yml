@@ -21,7 +21,7 @@ jobs:
       - name: Checkout previous listings
         run: |
           git fetch origin data:data
-          git checkout data -- listings/*
+          npm run checkout-data
       - name: Search marketplaces
         run: npm start
         env:

@@ -1,3 +1,3 @@
-- Add price limit
+- fix Facebook on prod
 - convert to TS
 - Add Telegram bot configurator

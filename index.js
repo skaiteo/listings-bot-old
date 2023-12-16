@@ -6,7 +6,10 @@ const { searchFacebook } = require("./facebook");
 (async () => {
     const items = new Set(String(process.env.ITEMS)
         .split(",")
-        .map((item) => item.trim()));
+        .map((item) => {
+            const [name, minPrice, maxPrice] = item.trim().split(":");
+            return { name, minPrice, maxPrice };
+        }));
 
     const browser = await puppeteer.launch({
         headless: "new",
