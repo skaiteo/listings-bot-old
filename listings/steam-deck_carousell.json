@@ -716,12 +716,13 @@
   },
   {
     "name": "Steam Deck OLED 512GB 1TB Pre Order",
-    "price": "RM2,999",
-    "condition": "Brand new",
     "listingID": 1265524011,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/13/steam_deck_oled_512gb_1tb_pre__1699896252_e9fbf510_progressive_thumbnail.jpg",
-    "seller_username": "kedaigamemy",
-    "itemURL": "https://carousell.com.my/p/Steam-Deck-OLED-512GB-1TB-Pre-Order-1265524011"
+    "price": "RM3,299",
+    "sellerUsername": "kedaigamemy",
+    "condition": "Brand new",
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/19/steam_deck_oled_512gb_1tb_pre__1702988908_f4468dc6_progressive_thumbnail.jpg",
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-OLED-512GB-1TB-Pre-Order-1265524011",
+    "oldPrice": "RM2,999"
   },
   {
     "name": "Gatz Exo-Guard 6 in 1 Protective Kit for Steam Deck",
