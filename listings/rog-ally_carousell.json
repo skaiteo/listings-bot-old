@@ -1,5 +1,14 @@
 [
   {
+    "name": "ASUS ROG ALLY | 9.9/10",
+    "listingID": 1273277759,
+    "price": "RM2,200",
+    "sellerUsername": "enterblackhole",
+    "condition": "Like new",
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/22/asus_rog_ally__9910_1703245460_0c4d481a_progressive_thumbnail.jpg",
+    "itemURL": "https://carousell.com.my/p/ASUS-ROG-ALLY---9-9-10-1273277759"
+  },
+  {
     "name": "Asus ROG Ally AMD Ryzen Z1 Extreme",
     "listingID": 1273259345,
     "price": "RM2,299",
@@ -387,11 +396,12 @@
   {
     "name": "Asus Rog Ally 1TB with Accessories ",
     "listingID": 1268263171,
-    "price": "RM4,800",
+    "price": "RM4,200",
     "sellerUsername": "zuldreamz",
     "condition": "Like new",
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/28/asus_rog_ally_1tb_1701175622_295220cd_progressive_thumbnail.jpg",
-    "itemURL": "https://carousell.com.my/p/Asus-Rog-Ally-1TB-with-Accessories--1268263171"
+    "itemURL": "https://carousell.com.my/p/Asus-Rog-Ally-1TB-with-Accessories--1268263171",
+    "oldPrice": "RM4,800"
   },
   {
     "name": "ROG ally",
