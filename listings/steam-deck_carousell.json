@@ -57,11 +57,12 @@
   {
     "name": "Steam Deck 64GB eMMC",
     "listingID": 1272922748,
-    "price": "RM1,600",
+    "price": "RM1,500",
     "sellerUsername": "LRTrigger",
     "condition": "Lightly used",
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/21/steam_deck_64gb_emmc_1703120792_057139ec_progressive_thumbnail.jpg",
-    "itemURL": "https://carousell.com.my/p/Steam-Deck-64GB-eMMC-1272922748"
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-64GB-eMMC-1272922748",
+    "oldPrice": "RM1,600"
   },
   {
     "name": "JSAUX Carrying Bag for Steam Deck",
