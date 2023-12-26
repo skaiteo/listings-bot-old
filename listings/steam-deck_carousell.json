@@ -1,5 +1,14 @@
 [
   {
+    "name": "Steam Deck 512GB",
+    "listingID": 1274383378,
+    "price": "RM1,900",
+    "sellerUsername": "parkseojooncat",
+    "condition": "Lightly used",
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/26/steam_deck_512gb_1703624561_93804086_progressive_thumbnail.jpg",
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-512GB-1274383378"
+  },
+  {
     "name": "Steam Deck",
     "listingID": 1274326865,
     "price": "RM1,800",
@@ -898,14 +907,5 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/10/steam_deck_hd_screen_replaceme_1699612553_d4b07021_progressive_thumbnail.jpg",
     "seller_username": "sidtommy",
     "itemURL": "https://carousell.com.my/p/STEAM-DECK-HD-SCREEN-REPLACEMENT-1264893436"
-  },
-  {
-    "name": "STEAM DECK UNABLE TO PLAY GAME REPAIR SERVICE",
-    "price": "RM2",
-    "condition": "Brand new",
-    "listingID": 1264825880,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/10/steam_deck_unable_to_play_game_1699588583_90c6c00c_progressive_thumbnail",
-    "seller_username": "aikilyugamingbangi",
-    "itemURL": "https://carousell.com.my/p/STEAM-DECK-UNABLE-TO-PLAY-GAME-REPAIR-SERVICE-1264825880"
   }
 ]
