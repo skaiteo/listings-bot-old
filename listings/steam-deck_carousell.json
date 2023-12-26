@@ -1,5 +1,14 @@
 [
   {
+    "name": "Steam Deck 512GB SteamOS",
+    "listingID": 1274219747,
+    "price": "RM2,100",
+    "sellerUsername": "emanjan",
+    "condition": "Like new",
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/26/steam_deck_512gb_steamos_1703574444_d826df2f_progressive_thumbnail.jpg",
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-512GB-SteamOS-1274219747"
+  },
+  {
     "name": "STEAM DECK (FULLSET) 256GB 🔥",
     "listingID": 1274075598,
     "price": "RM2,000",
@@ -898,14 +907,5 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/7/steam_deck_new_1699331676_0f33cd06_progressive_thumbnail.jpg",
     "seller_username": "hazirahzaabah",
     "itemURL": "https://carousell.com.my/p/STEAM-DECK--NEW--1264299871"
-  },
-  {
-    "name": "Steam Deck 1TB Upgrade",
-    "price": "RM1,900",
-    "condition": "Like new",
-    "listingID": 1264286504,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/7/steam_deck_1tb_upgrade_1699326931_0d4876d2_progressive_thumbnail.jpg",
-    "seller_username": "haziqhuruhuru",
-    "itemURL": "https://carousell.com.my/p/Steam-Deck-1TB-Upgrade-1264286504"
   }
 ]
