@@ -1,5 +1,14 @@
 [
   {
+    "name": "Steam Deck",
+    "listingID": 1274326865,
+    "price": "RM1,800",
+    "sellerUsername": "alepfahmi",
+    "condition": "Lightly used",
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/26/steam_deck_1703608539_6cbb43fd_progressive_thumbnail.jpg",
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-1274326865"
+  },
+  {
     "name": "Steam Deck Docking Station",
     "listingID": 1274293746,
     "price": "RM350",
@@ -898,14 +907,5 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/10/steam_deck_unable_to_play_game_1699588583_90c6c00c_progressive_thumbnail",
     "seller_username": "aikilyugamingbangi",
     "itemURL": "https://carousell.com.my/p/STEAM-DECK-UNABLE-TO-PLAY-GAME-REPAIR-SERVICE-1264825880"
-  },
-  {
-    "name": "Steam deck 1.9tb",
-    "price": "RM1,900",
-    "condition": "Like new",
-    "listingID": 1264769103,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/9/steam_deck_19tb_1699543865_ec46318e_progressive_thumbnail.jpg",
-    "seller_username": "mhmdhafizul_04",
-    "itemURL": "https://carousell.com.my/p/Steam-deck-1-9tb-1264769103"
   }
 ]
