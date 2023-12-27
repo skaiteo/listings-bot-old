@@ -1,5 +1,23 @@
 [
   {
+    "name": "Steam Deck 256gb",
+    "listingID": 1274510659,
+    "price": "RM1,700",
+    "sellerUsername": "syukrisyuk24",
+    "condition": "Lightly used",
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/27/steam_deck_256gb_1703673141_c83d1e99_progressive_thumbnail.jpg",
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-256gb-1274510659"
+  },
+  {
+    "name": "Steam deck ssd 1tb with warranty",
+    "listingID": 1265670297,
+    "price": "RM2,200",
+    "sellerUsername": "rastasgamers",
+    "condition": "Like new",
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/14/steam_deck_ssd_1tb_with_warran_1699966746_685cf6c4_progressive_thumbnail",
+    "itemURL": "https://carousell.com.my/p/Steam-deck-ssd-1tb-with-warranty-1265670297"
+  },
+  {
     "name": "2pcs Steam deck skin",
     "listingID": 1265579210,
     "price": "RM20",
@@ -889,23 +907,5 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/15/1tb_pm991a_samsung_gen3_2230_n_1700010708_91da2258_progressive_thumbnail",
     "seller_username": "gy.ssd.trading",
     "itemURL": "https://carousell.com.my/p/1TB-PM991A-SAMSUNG-GEN3-2230-NVME-SSD-NEW--Compatible-Steam-Deck-ALLY-SURFACE---1265732699"
-  },
-  {
-    "name": "1TB BC901 GEN4 SK HYNIX 2230 NVME SSD 5000MB'S (Compatible Steam Deck/ALLY/SURFACE )",
-    "price": "RM249",
-    "condition": "Like new",
-    "listingID": 1265732397,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/15/1tb_bc901_gen4_2230_nvme_ssd_5_1700010503_930b6d6e_progressive_thumbnail",
-    "seller_username": "gy.ssd.trading",
-    "itemURL": "https://carousell.com.my/p/1TB-BC901-GEN4-SK-HYNIX-2230-NVME-SSD-5000MB-S--Compatible-Steam-Deck-ALLY-SURFACE---1265732397"
-  },
-  {
-    "name": "1TB PM9B1 SAMSUNG GEN4 2230 NVME SSD (Compatible Steam Deck/ALLY/SURFACE )",
-    "price": "RM249",
-    "condition": "Like new",
-    "listingID": 1265732193,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/15/1tb_pm9b1_gen4_2230_nvme_ssd_c_1700010373_85659069_progressive_thumbnail",
-    "seller_username": "gy.ssd.trading",
-    "itemURL": "https://carousell.com.my/p/1TB-PM9B1-SAMSUNG-GEN4-2230-NVME-SSD--Compatible-Steam-Deck-ALLY-SURFACE---1265732193"
   }
 ]
