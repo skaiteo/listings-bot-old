@@ -1,5 +1,14 @@
 [
   {
+    "name": "Steam deck",
+    "listingID": 1268064416,
+    "price": "RM2,150",
+    "sellerUsername": "rastasgamers",
+    "condition": "Brand new",
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/27/steam_deck_1701088094_ef73e591_progressive_thumbnail.jpg",
+    "itemURL": "https://carousell.com.my/p/Steam-deck-1268064416"
+  },
+  {
     "name": "Steam Deck 1TB SSD",
     "listingID": 1267733623,
     "price": "RM1,999",
@@ -899,14 +908,5 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/27/valve_steam_deck_256gb_1701129588_da42a7d2_progressive_thumbnail.jpg",
     "seller_username": "keinkeong.pua",
     "itemURL": "https://carousell.com.my/p/Valve-Steam-Deck-256GB--JSAUX-Mod-Case---original-packaging--1268132962"
-  },
-  {
-    "name": "Steamdeck 64GB version",
-    "price": "RM1,300",
-    "condition": "Lightly used",
-    "listingID": 1268131634,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/27/steamdeck_64gb_version_1701128257_f79c48f7_progressive_thumbnail.jpg",
-    "seller_username": "zariff94",
-    "itemURL": "https://carousell.com.my/p/Steamdeck-64GB-version-1268131634"
   }
 ]
