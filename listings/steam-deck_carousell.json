@@ -1,5 +1,23 @@
 [
   {
+    "name": "Steam Deck Electromagnetic Joystick Module - GuliKit,no drift Steamdeck",
+    "listingID": 1274804536,
+    "price": "RM39",
+    "sellerUsername": "EnemyGamer",
+    "condition": "Like new",
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/28/steam_deck_electromagnetic_joy_1703779993_8ec703a2_progressive_thumbnail.jpg",
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-Electromagnetic-Joystick-Module---GuliKit-no-drift-Steamdeck-1274804536"
+  },
+  {
+    "name": "Steam Deck GuliKit Electromagnetic Joystick - no drift, install service available",
+    "listingID": 1274803366,
+    "price": "RM99",
+    "sellerUsername": "EnemyGamer",
+    "condition": "Like new",
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/28/steam_deck_gulikit_electromagn_1703779834_09eb9005_progressive_thumbnail.jpg",
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-GuliKit-Electromagnetic-Joystick---no-drift--install-service-available-1274803366"
+  },
+  {
     "name": "New steam deck with 512gb percuma games",
     "listingID": 1266462511,
     "price": "RM2,399",
@@ -448,11 +466,12 @@
   {
     "name": "SPIGEN Rugged Armor Steam Deck Case",
     "listingID": 1272105992,
-    "price": "RM45",
+    "price": "RM40",
     "sellerUsername": "rashidjohan92",
     "condition": "Like new",
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/17/spigen_rugged_armor_steam_deck_1702798661_d848d565_progressive_thumbnail.jpg",
-    "itemURL": "https://carousell.com.my/p/SPIGEN-Rugged-Armor-Steam-Deck-Case-1272105992"
+    "itemURL": "https://carousell.com.my/p/SPIGEN-Rugged-Armor-Steam-Deck-Case-1272105992",
+    "oldPrice": "RM45"
   },
   {
     "name": "Steam Deck Protective case with detachable front shell and kickstand",
@@ -889,23 +908,5 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/23/gpd_win_4_6800u_16gb_1tb_or_2t_1700702119_80b0bd48_progressive_thumbnail",
     "seller_username": "benchallenger",
     "itemURL": "https://carousell.com.my/p/GPD-Win-4-6800u-16GB-1TB-or-2TB-SSD-like-Steam-Deck-1267197107"
-  },
-  {
-    "name": "Steam deck ssd 1tb",
-    "price": "RM2,200",
-    "condition": "Like new",
-    "listingID": 1267015479,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/22/steam_deck_ssd_1tb_1700617982_966cc5ad_progressive_thumbnail.jpg",
-    "seller_username": "rastasgamers",
-    "itemURL": "https://carousell.com.my/p/Steam-deck-ssd-1tb-1267015479"
-  },
-  {
-    "name": "Steam Deck 512Gb original",
-    "price": "RM2,450",
-    "condition": "Like new",
-    "listingID": 1266773455,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/20/steam_deck_512gb_original_1700488696_019fa74b_progressive_thumbnail.jpg",
-    "seller_username": "athrunnzala",
-    "itemURL": "https://carousell.com.my/p/Steam-Deck-512Gb-original-1266773455"
   }
 ]
