@@ -1,5 +1,14 @@
 [
   {
+    "name": "Steam Deck Oled",
+    "listingID": 1267299248,
+    "price": "RM2,900",
+    "sellerUsername": "mejai07",
+    "condition": "Brand new",
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/23/steam_deck_oled_1700737411_6b386cee_progressive_thumbnail",
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-Oled-1267299248"
+  },
+  {
     "name": "GPD Win 4 6800u 16GB 1TB or 2TB SSD like Steam Deck",
     "listingID": 1267197107,
     "price": "RM2,500",
@@ -899,14 +908,5 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/4/modded_steam_deck_1tb_purple_t_1701685573_3bb209e7_progressive_thumbnail.jpg",
     "seller_username": "xurjunks",
     "itemURL": "https://carousell.com.my/p/JSAUX-Modded-Steam-Deck-1TB--Purple-Transparent--1267446157"
-  },
-  {
-    "name": "Steam Deck 64GB eMMC",
-    "price": "RM30",
-    "condition": "Like new",
-    "listingID": 1267323351,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/23/steam_deck_64gb_emmc_1700746215_722ff2cc_progressive_thumbnail.jpg",
-    "seller_username": "faizal2606",
-    "itemURL": "https://carousell.com.my/p/Steam-Deck-64GB-eMMC-1267323351"
   }
 ]
