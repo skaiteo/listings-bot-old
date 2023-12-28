@@ -1,5 +1,14 @@
 [
   {
+    "name": "Steam Deck 256GB",
+    "listingID": 1274662038,
+    "price": "RM1,700",
+    "sellerUsername": "azwanazrai",
+    "condition": "Lightly used",
+    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/12/28/steam_deck_256gb_1703735084_78251896_progressive_thumbnail.jpg",
+    "itemURL": "https://carousell.com.my/p/Steam-Deck-256GB-1274662038"
+  },
+  {
     "name": "Steam Deck 256gb",
     "listingID": 1274510659,
     "price": "RM1,700",
@@ -898,14 +907,5 @@
     "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/17/steam_deck_1tb__jsaux_mod_case_1700185717_27ebdb8b_progressive_thumbnail.jpg",
     "seller_username": "mister433",
     "itemURL": "https://carousell.com.my/p/Steam-Deck-1tb---jsaux-MOD-CASE-1266091313"
-  },
-  {
-    "name": "1TB PM991A SAMSUNG GEN3 2230 NVME SSD NEW (Compatible Steam Deck/ALLY/SURFACE )",
-    "price": "RM275",
-    "condition": "Brand new",
-    "listingID": 1265732699,
-    "thumbnailURL": "https://media.karousell.com/media/photos/products/2023/11/15/1tb_pm991a_samsung_gen3_2230_n_1700010708_91da2258_progressive_thumbnail",
-    "seller_username": "gy.ssd.trading",
-    "itemURL": "https://carousell.com.my/p/1TB-PM991A-SAMSUNG-GEN3-2230-NVME-SSD-NEW--Compatible-Steam-Deck-ALLY-SURFACE---1265732699"
   }
 ]
