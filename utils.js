@@ -43,7 +43,7 @@ exports.updateListings = (platform, item, prevListings, currentListings) => {
                 telegramBotSendtext(createListingsStr(platform, item, listingUpdates));
         }
 
-        return latestListings.slice(0, 100);
+        return latestListings.slice(0, 200);
     }
 };
 
