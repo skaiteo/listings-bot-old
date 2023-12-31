@@ -11,7 +11,8 @@
   "scripts": {
     "start": "node index.js",
     "local": "npm run checkout-data && npm start",
-    "checkout-data": "git checkout data -- listings/"
+    "checkout-data": "git checkout data -- listings/",
+    "login": "node login.js"
   },
   "author": "",
   "license": "ISC",
